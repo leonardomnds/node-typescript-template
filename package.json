@@ -5,6 +5,8 @@
   "author": "Leonardo Mendes <leonardomtads@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "git-commit-msg-linter": "^3.2.8"
+    "@types/node": "^16.7.6",
+    "git-commit-msg-linter": "^3.2.8",
+    "typescript": "^4.4.2"
   }
 }
