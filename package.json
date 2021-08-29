@@ -5,6 +5,9 @@
   "author": "Leonardo Mendes <leonardomtads@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "test": "jest"
   },
   "devDependencies": {
@@ -24,6 +27,7 @@
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.5",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.2"
   }
 }
